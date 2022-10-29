@@ -9,3 +9,8 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ```
 wsl --list --all -v
 ```
+
+## set default wsl 
+```
+wsl --setdefault Ubuntu-22.04
+```
