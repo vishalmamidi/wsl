@@ -14,3 +14,22 @@ wsl --list --all -v
 ```
 wsl --setdefault Ubuntu-22.04
 ```
+
+
+
+
+## create sudo user 
+
+```
+sudo adduser vishal
+```
+```
+usermod -aG sudo vishal
+```
+```
+groups vishal
+```
+
+```
+ubuntu config --default-user vishal
+```
